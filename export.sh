@@ -2,5 +2,4 @@
 
 cd $1
 git add -A
-git commit -m "Website atualizado"
-git push origin main
+git commit -m "Site atualizado via Bootstrap Studio"

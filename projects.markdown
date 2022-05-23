@@ -14,7 +14,7 @@ Follow me on [my GitHub](https://github.com/DoodlesEpic/) to have more informati
 
 {{ project.description}}
 
-Project created on {{ project.createdAt }}
+Project created on {{ project.createdAt | date: "%-d %B %Y"  }}
 
 {% if project.language %}
 Coded mainly with {{project.language}}

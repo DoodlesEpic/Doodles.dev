@@ -7,7 +7,7 @@ title: Home
 ---
 
 <link rel="stylesheet" href="/assets/css/global.css">
-<img src="/assets/images/avatar.png" height="150px" class="avatar">
+<img src="assets/images/avatar.png" height="150px" class="avatar">
 
 Hello, my name is Eduardo, but you can call me Doodles. This is my little personal website I've made with blog posts, projects, and contact information. Make yourself at home.
 

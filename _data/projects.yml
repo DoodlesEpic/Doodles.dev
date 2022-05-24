@@ -1,0 +1,382 @@
+---
+- name: winget-pkgs
+  url: https://github.com/DoodlesEpic/winget-pkgs
+  description: The Microsoft community Windows Package Manager manifest repository
+  createdAt: "2022-05-03T13:08:11Z"
+  updatedAt: "2022-05-03T17:15:36Z"
+  language:
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics: []
+- name: timeago.dart
+  url: https://github.com/DoodlesEpic/timeago.dart
+  description: A library useful for creating fuzzy timestamps. (e.g. "5 minutes ago")
+  createdAt: "2019-05-01T21:29:33Z"
+  updatedAt: "2020-05-02T02:54:36Z"
+  language: Dart
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics: []
+- name: tauri-docs
+  url: https://github.com/DoodlesEpic/tauri-docs
+  description: The source for all tauri project documentation.
+  createdAt: "2022-05-17T22:06:50Z"
+  updatedAt: "2022-05-17T14:40:18Z"
+  language:
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics: []
+- name: svelte
+  url: https://github.com/DoodlesEpic/svelte
+  description: Cybernetically enhanced web apps
+  createdAt: "2019-04-27T17:58:28Z"
+  updatedAt: "2020-05-02T02:55:32Z"
+  language: JavaScript
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics: []
+- name: SuperJS
+  url: https://github.com/DoodlesEpic/SuperJS
+  description: A very simple web app project to play with imperative JavaScript capabilities.
+  createdAt: "2020-05-16T03:56:45Z"
+  updatedAt: "2020-10-03T21:24:24Z"
+  language: JavaScript
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics:
+    - hacktoberfest
+    - javascript
+    - js
+    - single-page-app
+    - web-app
+    - website
+- name: RazorMovies
+  url: https://github.com/DoodlesEpic/RazorMovies
+  description: Simple movie database website developed with ASP.NET Core Razor Pages
+  createdAt: "2020-11-23T15:05:21Z"
+  updatedAt: "2020-11-24T16:27:51Z"
+  language: C#
+  license:
+  topics:
+    - csharp
+    - netcore
+    - netstandard
+    - razor-pages
+- name: raytracing.github.io
+  url: https://github.com/DoodlesEpic/raytracing.github.io
+  description: Main Web Site (Online Books)
+  createdAt: "2021-02-05T23:11:07Z"
+  updatedAt: "2021-02-08T20:18:34Z"
+  language:
+  license:
+    key: other
+    name: Other
+    spdx_id: NOASSERTION
+    url:
+    node_id: MDc6TGljZW5zZTA=
+  topics: []
+- name: Raytracer
+  url: https://github.com/DoodlesEpic/Raytracer
+  description:
+    A simple ray tracer to understand mathematical relationships used in
+    computer graphics. (Repo in Brazilian Portuguese)
+  createdAt: "2020-10-07T17:40:03Z"
+  updatedAt: "2021-02-12T21:23:40Z"
+  language: C++
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics:
+    - raytracer
+- name: ng-nebular-universal
+  url: https://github.com/DoodlesEpic/ng-nebular-universal
+  description:
+    Just a little test to demonstrate a problem with Nebular's toastr module
+    when using Universal SSR.
+  createdAt: "2020-05-10T03:41:13Z"
+  updatedAt: "2020-05-10T04:02:03Z"
+  language: HTML
+  license:
+  topics: []
+- name: Minesweeper
+  url: https://github.com/DoodlesEpic/Minesweeper
+  description: Minesweeper game made with wxWidgets to learn the framework
+  createdAt: "2020-11-07T02:20:20Z"
+  updatedAt: "2020-11-08T19:57:00Z"
+  language: C++
+  license:
+  topics:
+    - cpp
+    - minesweeper
+    - wxwidgets
+- name: Metrify
+  url: https://github.com/DoodlesEpic/Metrify
+  description:
+    Metrify is a small single-page applicattion that allows you to meter
+    poems simply and quickly. (Repo in Brazilian Portuguese)
+  createdAt: "2021-08-13T12:17:23Z"
+  updatedAt: "2021-09-06T14:34:09Z"
+  language: HTML
+  license:
+  topics:
+    - html5
+    - javascript
+    - poemas
+    - watercss
+- name: Iris-Scikit-Supervised-Tree-Machine-Learning
+  url: https://github.com/DoodlesEpic/Iris-Scikit-Supervised-Tree-Machine-Learning
+  description:
+    Detects different flowers from the Scikit iris database, creates a
+    pdf with a decision tree, and a performance evaluation. (Repo in Brazilian Portuguese)
+  createdAt: "2019-05-21T19:31:41Z"
+  updatedAt: "2021-08-21T00:51:50Z"
+  language: Python
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics:
+    - iris-dataset
+    - machine-learning
+    - python
+    - scikit-learn
+- name: HelloGatsby
+  url: https://github.com/DoodlesEpic/HelloGatsby
+  description: Simple static content website to learn Gatsby.
+  createdAt: "2020-12-17T18:51:08Z"
+  updatedAt: "2020-12-19T01:29:04Z"
+  language: JavaScript
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics:
+    - gatsby
+    - gatsbyjs
+    - website
+- name: GraphPrime
+  url: https://github.com/DoodlesEpic/GraphPrime
+  description:
+    Cross-platform prime number calculator developed on Tauri and Svelte
+    with beautiful charts by frappe and dygraphs, and excellent performance.
+  createdAt: "2022-05-15T02:49:08Z"
+  updatedAt: "2022-05-22T16:57:34Z"
+  language: Svelte
+  license:
+    key: gpl-3.0
+    name: GNU General Public License v3.0
+    spdx_id: GPL-3.0
+    url: https://api.github.com/licenses/gpl-3.0
+    node_id: MDc6TGljZW5zZTk=
+  topics:
+    - prime
+    - svelte
+    - sveltejs
+    - tauri
+    - tauri-app
+- name: Frutas-Scikit-Supervised-Tree-Machine-Learning
+  url: https://github.com/DoodlesEpic/Frutas-Scikit-Supervised-Tree-Machine-Learning
+  description:
+    Machine learning com scikit-learn, prevê diferente frutas usando peso
+    e rugosidade da casca, além disso cria um pdf com a árvore de decisão.
+  createdAt: "2019-05-21T19:18:55Z"
+  updatedAt: "2020-10-03T21:22:30Z"
+  language: Python
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics:
+    - hacktoberfest
+    - machine-learning
+    - python
+    - scikit-learn
+- name: free-for-dev
+  url: https://github.com/DoodlesEpic/free-for-dev
+  description:
+    A list of SaaS, PaaS and IaaS offerings that have free tiers of interest
+    to devops and infradev
+  createdAt: "2020-05-20T17:09:00Z"
+  updatedAt: "2020-11-25T15:13:04Z"
+  language:
+  license:
+  topics: []
+- name: DungeonsXL
+  url: https://github.com/DoodlesEpic/DungeonsXL
+  description: Create custom dungeons and adventure maps with ease!
+  createdAt: "2021-07-20T05:39:20Z"
+  updatedAt: "2021-08-13T12:36:58Z"
+  language:
+  license:
+    key: gpl-3.0
+    name: GNU General Public License v3.0
+    spdx_id: GPL-3.0
+    url: https://api.github.com/licenses/gpl-3.0
+    node_id: MDc6TGljZW5zZTk=
+  topics: []
+- name: DoodlesClicker
+  url: https://github.com/DoodlesEpic/DoodlesClicker
+  description: Clicker game made with QT to learn the framework
+  createdAt: "2020-09-02T19:20:11Z"
+  updatedAt: "2021-08-21T01:21:50Z"
+  language: C++
+  license:
+    key: gpl-3.0
+    name: GNU General Public License v3.0
+    spdx_id: GPL-3.0
+    url: https://api.github.com/licenses/gpl-3.0
+    node_id: MDc6TGljZW5zZTk=
+  topics:
+    - clicker-game
+    - cpp
+    - game
+    - qt
+    - qtcreator
+- name: Democraz
+  url: https://github.com/DoodlesEpic/Democraz
+  description:
+    See a list of bills and constitutional amendments directly from the
+    Chamber of Deputies API. (Repo in Brazilian Portuguese)
+  createdAt: "2021-08-17T02:02:40Z"
+  updatedAt: "2021-08-25T12:23:53Z"
+  language: Python
+  license:
+    key: gpl-3.0
+    name: GNU General Public License v3.0
+    spdx_id: GPL-3.0
+    url: https://api.github.com/licenses/gpl-3.0
+    node_id: MDc6TGljZW5zZTk=
+  topics:
+    - brasil
+    - django
+    - python
+- name: conteudo-gratuito
+  url: https://github.com/DoodlesEpic/conteudo-gratuito
+  description: "\U0001F4CC Conteúdos gratuitos compartilhados pela comunidade."
+  createdAt: "2020-10-02T18:53:15Z"
+  updatedAt: "2020-11-25T15:14:02Z"
+  language:
+  license:
+  topics: []
+- name: ChestSort
+  url: https://github.com/DoodlesEpic/ChestSort
+  description:
+    1.8 to 1.16 compatible Minecraft-/Spigot-Plugin to allow automatic
+    chest sorting.
+  createdAt: "2021-07-18T01:36:52Z"
+  updatedAt: "2021-07-18T21:08:11Z"
+  language:
+  license:
+    key: gpl-3.0
+    name: GNU General Public License v3.0
+    spdx_id: GPL-3.0
+    url: https://api.github.com/licenses/gpl-3.0
+    node_id: MDc6TGljZW5zZTk=
+  topics: []
+- name: CalculadoraNumerosPrimosJS
+  url: https://github.com/DoodlesEpic/CalculadoraNumerosPrimosJS
+  description:
+    JavaScript prime number calculator, with graphical representation.
+    (Repo in Brazilian Portuguese)
+  createdAt: "2019-05-11T18:02:13Z"
+  updatedAt: "2021-08-21T01:21:13Z"
+  language: HTML
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics:
+    - javascript
+    - js
+    - single-page-app
+    - web-app
+    - website
+- name: CalculadoraNumerosPrimos
+  url: https://github.com/DoodlesEpic/CalculadoraNumerosPrimos
+  description:
+    Calculadora de números primos em C, saiba quais números primos existem
+    até certo número
+  createdAt: "2019-05-11T17:58:00Z"
+  updatedAt: "2021-08-21T01:21:33Z"
+  language: C
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics:
+    - c
+    - matematica
+    - numeros-primos
+    - primos
+- name: BubbleSort
+  url: https://github.com/DoodlesEpic/BubbleSort
+  description:
+    Simplistic bubble sort terminal application, written in C to demonstrate
+    the bubble sort algorithm
+  createdAt: "2020-06-03T22:57:34Z"
+  updatedAt: "2020-11-25T15:14:43Z"
+  language: C
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics:
+    - bubble-sort
+    - c
+    - hacktoberfest
+    - linux
+    - terminal-based
+- name: BordBot
+  url: https://github.com/DoodlesEpic/BordBot
+  description:
+    A discord bot that gives random responses to random things. (Repo in
+    Brazilian Portuguese)
+  createdAt: "2020-12-20T01:32:57Z"
+  updatedAt: "2021-08-21T00:50:13Z"
+  language: Python
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics:
+    - discord
+    - discord-bot
+    - python
+    - python3

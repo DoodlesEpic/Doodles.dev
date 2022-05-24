@@ -1,3 +1,3 @@
 # DoodlesEpic.github.io
 
-Meu website pessoal desenvolvido utilizando o Bootstrap Studio, hospedado via GitHub Pages
+My personal website developed using Jekyll, hosted with GitHub Pages

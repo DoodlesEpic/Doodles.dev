@@ -1,0 +1,66 @@
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+<form
+  action="https://formspree.io/f/xlezzdpv"
+  method="POST"
+  class="input-group"
+>
+  <label for="email"> Your email: </label>
+  <input type="email" name="email" placeholder="youremail@example.com" />
+
+  <label for="message"> Your message: </label>
+  <textarea
+    name="message"
+    placeholder="Hello Doodles, this website is very cool, just like you my friend..."
+  ></textarea>
+
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
+<p>
+  Or contact me directly sending an email to
+  <a href="mailto:moraes.eduardo@proton.me">moraes.eduardo@proton.me</a>
+</p>
+
+<style>
+  .input-group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .input-group input,
+  .input-group button,
+  .input-group textarea {
+    margin: 0.5em 0em 2em;
+    padding: 1em;
+    border-radius: 0.3em;
+    border: none;
+    font: 1rem / 1.25 sans-serif;
+    outline-color: rgba(57, 161, 195, 0.582);
+    box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.582);
+  }
+
+  .input-group button {
+    padding: 0.5em;
+    background-color: #00a8ff;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    width: 10em;
+    align-self: flex-end;
+  }
+
+  .input-group button:hover {
+    background-color: #0091e4;
+  }
+
+  .input-group button:active {
+    background-color: #007dc6;
+  }
+</style>

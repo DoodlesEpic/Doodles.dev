@@ -27,6 +27,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://eduardomoraes.xyz" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: DoodlesEpic
 rss: RSS Feed
+show_excerpts: true
 header_pages:
   - index.html
   - blog.markdown

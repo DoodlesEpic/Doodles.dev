@@ -98,16 +98,6 @@
     node_id: MDc6TGljZW5zZTEz
   topics:
     - raytracer
-- name: ng-nebular-universal
-  url: https://github.com/DoodlesEpic/ng-nebular-universal
-  description:
-    Just a little test to demonstrate a problem with Nebular's toastr module
-    when using Universal SSR.
-  createdAt: "2020-05-10T03:41:13Z"
-  updatedAt: "2020-05-10T04:02:03Z"
-  language: HTML
-  license:
-  topics: []
 - name: Minesweeper
   url: https://github.com/DoodlesEpic/Minesweeper
   description: Minesweeper game made with wxWidgets to learn the framework

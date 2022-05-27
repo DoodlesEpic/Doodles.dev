@@ -146,8 +146,8 @@
     - javascript
     - poemas
     - watercss
-- name: Iris-Scikit-Supervised-Tree-Machine-Learning
-  url: https://github.com/DoodlesEpic/Iris-Scikit-Supervised-Tree-Machine-Learning
+- name: IrisML
+  url: https://github.com/DoodlesEpic/IrisML
   description:
     Detects different flowers from the Scikit iris database, creates a
     pdf with a decision tree, and a performance evaluation. (Repo in Brazilian Portuguese)
@@ -201,8 +201,8 @@
     - sveltejs
     - tauri
     - tauri-app
-- name: Frutas-Scikit-Supervised-Tree-Machine-Learning
-  url: https://github.com/DoodlesEpic/Frutas-Scikit-Supervised-Tree-Machine-Learning
+- name: FruitsML
+  url: https://github.com/DoodlesEpic/FruitsML
   description:
     Machine learning com scikit-learn, prevê diferente frutas usando peso
     e rugosidade da casca, além disso cria um pdf com a árvore de decisão.

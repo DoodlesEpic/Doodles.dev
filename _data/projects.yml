@@ -82,19 +82,6 @@
     - netcore
     - netstandard
     - razor-pages
-- name: raytracing.github.io
-  url: https://github.com/DoodlesEpic/raytracing.github.io
-  description: Main Web Site (Online Books)
-  createdAt: "2021-02-05T23:11:07Z"
-  updatedAt: "2021-02-08T20:18:34Z"
-  language:
-  license:
-    key: other
-    name: Other
-    spdx_id: NOASSERTION
-    url:
-    node_id: MDc6TGljZW5zZTA=
-  topics: []
 - name: Raytracer
   url: https://github.com/DoodlesEpic/Raytracer
   description:

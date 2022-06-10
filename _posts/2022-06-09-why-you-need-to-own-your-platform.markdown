@@ -27,7 +27,7 @@ You're using [Discord](https://discord.com/) to share stuff with groups of frien
 
 ### YouTube-like
 
-Admittedly this is the one that in my opinion is the hardest to completely replace, simply because YouTube has ANY community and content you may ever wish, and all the tools creators need to share stuff. If you wish to self-host something like YouTube for sharing content, there is always Peertube, which is somewhat like Mastodon but for video sharing, it's pretty cool but will require quite a lot of infrastructure compared to the other options. Another option to consider is something like [LBRY](https://lbry.com/), or as it became recently known [Odysee](https://odysee.com/), which is a blockchain-based video sharing platform, meaning it is decentralized by nature but happens on a decentralized network which you don't have to worry about.
+Admittedly this is the one that in my opinion is the hardest to completely replace, simply because YouTube has ANY community and content you may ever wish, and all the tools creators need to share stuff. If you wish to self-host something like YouTube for sharing content, there is always [Peertube](https://joinpeertube.org/), which is somewhat like Mastodon but for video sharing, it's pretty cool but will require quite a lot of infrastructure compared to the other options. Another option to consider is something like [LBRY](https://lbry.com/), or as it became recently known [Odysee](https://odysee.com/), which is a blockchain-based video sharing platform, meaning it is decentralized by nature but happens on a decentralized network which you don't have to worry about.
 
 ### Tumblr-like or whatever-like
 

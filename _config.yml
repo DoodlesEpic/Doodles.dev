@@ -31,7 +31,7 @@ show_excerpts: true
 header_pages:
   - index.html
   - blog.markdown
-  - projects.markdown
+  - projects.html
   - contact.html
 
 # Build settings

@@ -29,13 +29,16 @@ permalink: /projects/
 <style>
   .projects {
     margin: 0;
+
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1em;
   }
 
   .projects li {
+    flex: 1 1 300px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     padding: 20px;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
     border-radius: 10px;
     list-style: none;
   }

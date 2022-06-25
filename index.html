@@ -76,22 +76,15 @@ title: Home
 
     display: flex;
     flex-flow: row wrap;
-    gap: 1em;
-
     justify-content: space-around;
+    gap: 1em;
   }
 
   .explore li {
+    flex: 1 0 180px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    flex-basis: 25%;
     padding: 20px;
     border-radius: 10px;
     list-style: none;
-  }
-
-  @media only screen and (max-width: 640px) {
-    .explore {
-      flex-flow: column wrap;
-    }
   }
 </style>

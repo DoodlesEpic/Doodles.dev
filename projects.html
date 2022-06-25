@@ -9,28 +9,35 @@ permalink: /projects/
   more information about my projects.
 </p>
 
-{% for project in site.data.projects %} {% if project.topics.size > 1 %}
-<div class="project">
-  <h2><a href="{{project.url}}">{{ project.name}}</a></h2>
+<ul class="projects">
+  {% for project in site.data.projects %} {% if project.topics.size > 1 %}
+  <li>
+    <h2><a href="{{project.url}}">{{ project.name}}</a></h2>
 
-  <p>{{ project.description}}</p>
-  <p>Project created on {{ project.createdAt | date: "%-d %B %Y" }}</p>
+    <p>{{ project.description}}</p>
+    <p>Project created on {{ project.createdAt | date: "%-d %B %Y" }}</p>
 
-  {% if project.language %}
-  <p>Coded mainly with {{project.language}}</p>
-  {% endif %} {% if project.license %}
-  <p>Licensed under {{project.license.name}}</p>
-  {% endif %}
-</div>
-{% endif%} {% endfor %}
+    {% if project.language %}
+    <p>Coded mainly with {{project.language}}</p>
+    {% endif %} {% if project.license %}
+    <p>Licensed under {{project.license.name}}</p>
+    {% endif %}
+  </li>
+  {% endif%} {% endfor %}
+</ul>
 
 <style>
-  .project {
+  .projects {
+    margin: 0;
+  }
+
+  .projects li {
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
     padding: 20px;
     margin-block-start: 1em;
     margin-block-end: 1em;
     border-radius: 10px;
+    list-style: none;
   }
 
   .project p {

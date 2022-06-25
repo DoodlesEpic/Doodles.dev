@@ -181,8 +181,8 @@
     - brasil
     - django
     - python
-- name: CalculadoraNumerosPrimosJS
-  url: https://github.com/DoodlesEpic/CalculadoraNumerosPrimosJS
+- name: NumerosPrimosJS
+  url: https://github.com/DoodlesEpic/NumerosPrimosJS
   description:
     JavaScript prime number calculator, with graphical representation.
     (Repo in Brazilian Portuguese)
@@ -201,8 +201,8 @@
     - single-page-app
     - web-app
     - website
-- name: CalculadoraNumerosPrimos
-  url: https://github.com/DoodlesEpic/CalculadoraNumerosPrimos
+- name: NumerosPrimos
+  url: https://github.com/DoodlesEpic/NumerosPrimos
   description:
     Calculadora de números primos em C, saiba quais números primos existem
     até certo número

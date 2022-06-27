@@ -21,7 +21,7 @@
 title: Doodles
 description: >- # this means to ignore newlines until "baseurl:"
   Hello, my name is Eduardo, but you can call me Doodles.
-  This is my little personal website I've made with blog posts, projects, and contact information.
+  This is my little personal website with blog posts, projects, and contact information.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://doodles.dev" # the base hostname & protocol for your site, e.g. http://example.com
 show_excerpts: true

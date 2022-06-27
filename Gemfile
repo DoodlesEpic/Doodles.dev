@@ -2,7 +2,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.2.2"
 
 # The minima theme to be used as gem
-gem "minima", github: "jekyll/minima"
+gem "minima", github: "DoodlesEpic/minima"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"

@@ -43,4 +43,7 @@ Even though we have done these kinds of pendulum swings on the way we want to do
 
 ## Conclusion
 
-WRITE BEFORE RELEASING THE ARTICLE AND SHARING WITH THE GOOD FOLKS AT HACKER NEWS.
+I'm not sure I have a conclusion for this. I'm just kind of mad at all of the situation of modern technology (as are most developers) but I have no idea what we could do to fix it. Something I know I'll be doing though: HODL my computer until it explodes.
+
+And as always, have a good one.
+

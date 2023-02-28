@@ -4,7 +4,7 @@
 
 ## About
 
-Hello, my name is Eduardo, but you can call me Doodles. This is my little personal website with blog posts, projects, and contact information. This website was developed using Jekyll, currently available at [doodles.dev](https://doodles.dev). Right now it's deployed from Netlify at the URL [doodlesepic.netlify.app](https://doodlesepic.netlify.app), so the GitHub pages deployment isn't actively maintained.
+Hello, my name is Eduardo, but you can call me Doodles. This is my little personal website with blog posts, projects, and contact information. This website was developed using Jekyll, currently available at [www.doodles.dev](https://www.doodles.dev). Right now it's deployed from Netlify at the URL [doodlesdev.netlify.app](https://doodlesdev.netlify.app), so the GitHub pages deployment isn't actively maintained.
 
 ## License
 

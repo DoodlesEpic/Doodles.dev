@@ -47,7 +47,7 @@ minima:
         instance: gitlab.com
 
 # Build settings
-theme: minima
+theme: doodles_minima
 plugins:
   - jekyll-feed
   - jekyll-sitemap

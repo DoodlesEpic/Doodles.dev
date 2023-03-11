@@ -37,14 +37,11 @@ author:
 
 minima:
   social_links:
-    github: DoodlesEpic
-    stackoverflow: "10328163"
-    mastodon:
-      - username: doodlesdev
-        instance: mastodon.social
-    gitlab:
-      - username: doodlesdev
-        instance: gitlab.com
+    - { platform: rss, user_url: "/feed.xml" }
+    - { platform: github, user_url: "https://github.com/DoodlesEpic/" }
+    - { platform: gitlab, user_url: "https://gitlab.com/doodlesdev/" }
+    - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/10328163/doodles" }
+    - { platform: mastodon, user_url: "https://mastodon.social/@doodlesdev" }
 
 # Build settings
 theme: doodles_minima

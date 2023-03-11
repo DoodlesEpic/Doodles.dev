@@ -1,8 +1,8 @@
 GIT
-  remote: https://github.com/DoodlesEpic/minima.git
-  revision: 75fe82c64a0a3a947aaacf82a7d0b838c0691a3e
+  remote: https://github.com/DoodlesEpic/DoodlesMinima.git
+  revision: 3d8ea54c141d9b6ecd00f9de91e2d59497eb7da3
   specs:
-    minima (2.5.1)
+    doodles_minima (3.0.0.dev)
       jekyll (>= 3.5, < 5.0)
       jekyll-feed (~> 0.9)
       jekyll-seo-tag (~> 2.1)
@@ -77,11 +77,11 @@ PLATFORMS
   x86_64-linux
 
 DEPENDENCIES
+  doodles_minima!
   http_parser.rb (~> 0.6.0)
   jekyll (~> 4.2.2)
   jekyll-feed (~> 0.12)
   jekyll-sitemap
-  minima!
   tzinfo (~> 1.2)
   tzinfo-data
   wdm (~> 0.1.1)

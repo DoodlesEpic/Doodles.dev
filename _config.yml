@@ -36,6 +36,7 @@ author:
   email: "moraes.eduardo@proton.me"
 
 minima:
+  skin: auto
   social_links:
     - { platform: rss, user_url: "/feed.xml" }
     - { platform: github, user_url: "https://github.com/DoodlesEpic/" }

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/DoodlesEpic/DoodlesMinima.git
-  revision: 457a9ef3c9f756b6b784960ce4004848b196c6f3
+  revision: c14b12e21e1213b00fae37ed6bc7f680aa47165e
   specs:
     doodles_minima (3.0.2.dev)
       jekyll (>= 3.5, < 5.0)

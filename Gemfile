@@ -1,11 +1,12 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 4.2.2"
+gem "jekyll", "~> 4.3.2"
 
 # The minima theme to be used as gem
 gem "doodles_minima", github: "DoodlesEpic/DoodlesMinima"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
+  gem 'jekyll-sitemap'
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -22,7 +23,3 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 # do not have a Java counterpart.
 gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 
-gem "webrick", "~> 1.7"
-
-# Generate site map files for Google and Bing indexing
-gem 'jekyll-sitemap'

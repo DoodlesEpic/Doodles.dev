@@ -46,6 +46,10 @@ minima:
 
 # Build settings
 theme: doodles_minima
+
+sass:
+  style: compressed
+
 plugins:
   - jekyll-feed
   - jekyll-sitemap

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Sit the fuck down and go study”
+title: "Sit the fuck down and go study"
 date: 2023-02-26 23:35:00 -0300
 author: Doodles
 ---

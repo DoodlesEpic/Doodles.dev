@@ -1,6 +1,6 @@
 ---
 layout: post
-title: “Modern problems require old solutions”
+title: "Modern problems require old solutions"
 date: 2022-08-06 00:55:00 -0300
 author: Doodles
 ---
@@ -35,7 +35,7 @@ Yes, we just reinvented the past, but now it's worse and harder to work on. So m
 
 By the way, these cross platforms applications had the same problems Electron applications face now. They are slower, and they don't feel at home on the operating system, not respecting your customizations and often not following the interface guidelines of your desktop environment, which makes using them confusing more often than not. Even worse is that an Electron application needs to download a whole web browser (just the reinvention of a networked operating system at this point) to run.
 
-I think Electron is completely crazy, but if downloading an entire web browser to run every application doesn't sound insane: look at the fact we are using Docker to manage dependencies in development environments instead of using package managers or virtual machines, which with KVM or Hyper-V get very fast. 
+I think Electron is completely crazy, but if downloading an entire web browser to run every application doesn't sound insane: look at the fact we are using Docker to manage dependencies in development environments instead of using package managers or virtual machines, which with KVM or Hyper-V get very fast.
 I'm pretty sure someone is going to find a way to grab these images and distribute them, so I can deploy them. I wish we had something like that, it could be called Ansible because I like the name. Orr we could be using “containers” and a super complex borg-inspired monstrosity to manage small deployments, simply because Docker Swarm was never actually adopted by anyone.
 Maybe even having a common target (instead of all the different operating systems and architectures) would be enough: “If WASM+WASI existed in 2008, we wouldn't have needed to created Docker. That's how important it is. WebAssembly on the server is the future of computing. A standardized system interface was the missing link. Let's hope WASI is up to the task!” — Solomon Hykes
 

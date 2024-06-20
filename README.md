@@ -10,7 +10,7 @@ Hello, my name is Eduardo, but you can call me Doodles. This is my little person
 
 ### Content
 
-For the posts in the website: [This work](https://doodlesdev.com) © 2022 by [Eduardo Moraes](https://github.com/DoodlesEpic/) is licensed under the [Creative Commons](https://creativecommons.org/) [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
+For the posts in the website: [This work](https://doodlesdev.com) © 2022-2024 by [Eduardo Moraes](https://github.com/DoodlesEpic/) is licensed under the [Creative Commons](https://creativecommons.org/) [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a></p>
 
 ### Code
 

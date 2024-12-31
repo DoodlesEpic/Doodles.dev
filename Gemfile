@@ -1,11 +1,11 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 4.3.2"
+gem "jekyll", "~> 4.3.4"
 
 # The minima theme to be used as gem
 gem "doodles_minima", github: "DoodlesEpic/DoodlesMinima"
 
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.17"
   gem 'jekyll-sitemap'
   gem 'jekyll-admin'
   gem 'jekyll-compose'

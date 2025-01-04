@@ -19,12 +19,12 @@ So in short what's the solution? In my opinion, the solution is to completely st
 
 The biggest problem to stop using JavaScript as someone who is just browsing the web is that it's just not feasible if you have to access a website like YouTube, or modern Twitter (curiosity: did you know Twitter used to have a version of their website that worked without JavaScript?). There are however ways to access the content on these websites without using their normal frontends:
 
-- [yewtu.be](yewtu.be) (Invidious, which can be self-hosted, is a frontend for YouTube)
-- [nitter.net](nitter.net) (Nitter, which can also be self-hosted, is a frontend for Twitter)
-- [old.reddit.com](old.reddit.com) (Reddit, but actually bearable)
+- [yewtu.be](https://yewtu.be) (Invidious, which can be self-hosted, is a frontend for YouTube)
+- [nitter.net](https://nitter.net) (Nitter, which can also be self-hosted, is a frontend for Twitter)
+- [old.reddit.com](https://old.reddit.com) (Reddit, but actually bearable)
 - RSS feeds and an RSS client (Any news website can now be read without even downloading their HTML)
-  - Use [morss.it](morss.it) to convert feeds that only serve you partial content to full-blown articles you can read in the comfort of your RSS reader
-- Go outside (A great alternative to [facebook.com](facebook.com))
+  - Use [morss.it](https://morss.it) to convert feeds that only serve you partial content to full-blown articles you can read in the comfort of your RSS reader
+- Go outside (A great alternative to [facebook.com](https://facebook.com))
 
 I honestly believe if you are reading this you should give it a try. Disable JavaScript globally on your web browser and try to survive as much as you can without whitelisting any websites. You'll get better performance, and avoid awful websites, advertising, and tracking. Save on bandwidth. And you'll also get all of the security advantages of not having to run JavaScript from any website you run into.
 

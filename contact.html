@@ -47,11 +47,17 @@ permalink: /contact/
   .input-group textarea {
     margin: 0.5em 0em 2em;
     padding: 1em;
-    border-radius: 0.3em;
-    border: none;
     font: 1rem / 1.25 sans-serif;
-    outline-color: rgba(57, 161, 195, 0.582);
-    box-shadow: 0 0 0.2em rgba(0, 0, 0, 0.582);
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .input-group input:focus,
+  .input-group textarea:focus,
+  .input-group button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
   }
 
   @media (prefers-color-scheme: dark) {

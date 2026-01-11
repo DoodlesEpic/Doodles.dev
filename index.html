@@ -79,7 +79,6 @@ title: Home
 
   .explore {
     margin: 0 0 20px 0;
-
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -88,9 +87,16 @@ title: Home
 
   .explore li {
     flex: 1 0 180px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    padding: 20px;
-    border-radius: 10px;
     list-style: none;
+    padding: 1.5rem;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .explore li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    border-color: #0366d6;
   }
 </style>

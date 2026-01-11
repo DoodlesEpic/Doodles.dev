@@ -1,4 +1,87 @@
 ---
+- name: GraphPrime
+  url: https://github.com/DoodlesEpic/GraphPrime
+  description:
+    Cross-platform prime number calculator developed on Tauri and Svelte
+    with beautiful charts by frappe and dygraphs, and excellent performance.
+  createdAt: "2022-05-15T02:49:08Z"
+  updatedAt: "2022-05-22T16:57:34Z"
+  language: Svelte
+  license:
+    key: gpl-3.0
+    name: GNU General Public License v3.0
+    spdx_id: GPL-3.0
+    url: https://api.github.com/licenses/gpl-3.0
+    node_id: MDc6TGljZW5zZTk=
+  topics:
+    - prime
+    - svelte
+    - sveltejs
+    - tauri
+    - tauri-app
+- name: Minesweeper
+  url: https://github.com/DoodlesEpic/Minesweeper
+  description: Minesweeper game made with wxWidgets to learn the framework
+  createdAt: "2020-11-07T02:20:20Z"
+  updatedAt: "2020-11-08T19:57:00Z"
+  language: C++
+  license:
+  topics:
+    - cpp
+    - minesweeper
+    - wxwidgets
+- name: DoodlesClicker
+  url: https://github.com/DoodlesEpic/DoodlesClicker
+  description: Clicker game made with QT to learn the framework
+  createdAt: "2020-09-02T19:20:11Z"
+  updatedAt: "2021-08-21T01:21:50Z"
+  language: C++
+  license:
+    key: gpl-3.0
+    name: GNU General Public License v3.0
+    spdx_id: GPL-3.0
+    url: https://api.github.com/licenses/gpl-3.0
+    node_id: MDc6TGljZW5zZTk=
+  topics:
+    - clicker-game
+    - cpp
+    - game
+    - qt
+    - qtcreator
+- name: Democraz
+  url: https://github.com/DoodlesEpic/Democraz
+  description:
+    See a list of bills and constitutional amendments directly from the
+    Chamber of Deputies API. (Repo in Brazilian Portuguese)
+  createdAt: "2021-08-17T02:02:40Z"
+  updatedAt: "2021-08-25T12:23:53Z"
+  language: Python
+  license:
+    key: gpl-3.0
+    name: GNU General Public License v3.0
+    spdx_id: GPL-3.0
+    url: https://api.github.com/licenses/gpl-3.0
+    node_id: MDc6TGljZW5zZTk=
+  topics:
+    - brasil
+    - django
+    - python
+- name: Raytracer
+  url: https://github.com/DoodlesEpic/Raytracer
+  description:
+    A simple ray tracer to understand mathematical relationships used in
+    computer graphics. (Repo in Brazilian Portuguese)
+  createdAt: "2020-10-07T17:40:03Z"
+  updatedAt: "2021-02-12T21:23:40Z"
+  language: C++
+  license:
+    key: mit
+    name: MIT License
+    spdx_id: MIT
+    url: https://api.github.com/licenses/mit
+    node_id: MDc6TGljZW5zZTEz
+  topics:
+    - raytracer
 - name: SuperJS
   url: https://github.com/DoodlesEpic/SuperJS
   description: A very simple web app project to play with imperative JavaScript capabilities.
@@ -30,33 +113,6 @@
     - netcore
     - netstandard
     - razor-pages
-- name: Raytracer
-  url: https://github.com/DoodlesEpic/Raytracer
-  description:
-    A simple ray tracer to understand mathematical relationships used in
-    computer graphics. (Repo in Brazilian Portuguese)
-  createdAt: "2020-10-07T17:40:03Z"
-  updatedAt: "2021-02-12T21:23:40Z"
-  language: C++
-  license:
-    key: mit
-    name: MIT License
-    spdx_id: MIT
-    url: https://api.github.com/licenses/mit
-    node_id: MDc6TGljZW5zZTEz
-  topics:
-    - raytracer
-- name: Minesweeper
-  url: https://github.com/DoodlesEpic/Minesweeper
-  description: Minesweeper game made with wxWidgets to learn the framework
-  createdAt: "2020-11-07T02:20:20Z"
-  updatedAt: "2020-11-08T19:57:00Z"
-  language: C++
-  license:
-  topics:
-    - cpp
-    - minesweeper
-    - wxwidgets
 - name: Metrify
   url: https://github.com/DoodlesEpic/Metrify
   description:
@@ -106,26 +162,6 @@
     - gatsby
     - gatsbyjs
     - website
-- name: GraphPrime
-  url: https://github.com/DoodlesEpic/GraphPrime
-  description:
-    Cross-platform prime number calculator developed on Tauri and Svelte
-    with beautiful charts by frappe and dygraphs, and excellent performance.
-  createdAt: "2022-05-15T02:49:08Z"
-  updatedAt: "2022-05-22T16:57:34Z"
-  language: Svelte
-  license:
-    key: gpl-3.0
-    name: GNU General Public License v3.0
-    spdx_id: GPL-3.0
-    url: https://api.github.com/licenses/gpl-3.0
-    node_id: MDc6TGljZW5zZTk=
-  topics:
-    - prime
-    - svelte
-    - sveltejs
-    - tauri
-    - tauri-app
 - name: FruitsML
   url: https://github.com/DoodlesEpic/FruitsML
   description:
@@ -145,42 +181,6 @@
     - machine-learning
     - python
     - scikit-learn
-- name: DoodlesClicker
-  url: https://github.com/DoodlesEpic/DoodlesClicker
-  description: Clicker game made with QT to learn the framework
-  createdAt: "2020-09-02T19:20:11Z"
-  updatedAt: "2021-08-21T01:21:50Z"
-  language: C++
-  license:
-    key: gpl-3.0
-    name: GNU General Public License v3.0
-    spdx_id: GPL-3.0
-    url: https://api.github.com/licenses/gpl-3.0
-    node_id: MDc6TGljZW5zZTk=
-  topics:
-    - clicker-game
-    - cpp
-    - game
-    - qt
-    - qtcreator
-- name: Democraz
-  url: https://github.com/DoodlesEpic/Democraz
-  description:
-    See a list of bills and constitutional amendments directly from the
-    Chamber of Deputies API. (Repo in Brazilian Portuguese)
-  createdAt: "2021-08-17T02:02:40Z"
-  updatedAt: "2021-08-25T12:23:53Z"
-  language: Python
-  license:
-    key: gpl-3.0
-    name: GNU General Public License v3.0
-    spdx_id: GPL-3.0
-    url: https://api.github.com/licenses/gpl-3.0
-    node_id: MDc6TGljZW5zZTk=
-  topics:
-    - brasil
-    - django
-    - python
 - name: NumerosPrimosJS
   url: https://github.com/DoodlesEpic/NumerosPrimosJS
   description:

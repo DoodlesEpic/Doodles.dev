@@ -71,6 +71,18 @@ title: Home
 </ul>
 
 <style>
+  :root {
+    --border-card: #e1e4e8;
+    --border-hover: #0366d6;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --border-card: #30363d;
+      --border-hover: #58a6ff;
+    }
+  }
+
   .avatar {
     display: flex;
     justify-content: center;
@@ -88,7 +100,7 @@ title: Home
     flex: 1 0 180px;
     list-style: none;
     padding: 1.5rem;
-    border: 1px solid #e1e4e8;
+    border: 1px solid var(--border-card);
     border-radius: 8px;
     transition:
       transform 0.2s ease,
@@ -98,6 +110,6 @@ title: Home
   .explore li:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    border-color: #0366d6;
+    border-color: var(--border-hover);
   }
 </style>

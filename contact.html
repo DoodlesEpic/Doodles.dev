@@ -35,6 +35,16 @@ permalink: /contact/
 </p>
 
 <style>
+  :root {
+    --border-card: #e1e4e8;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --border-card: #30363d;
+    }
+  }
+
   .input-group {
     display: flex;
     flex-direction: column;
@@ -48,7 +58,7 @@ permalink: /contact/
     margin: 0.5em 0em 2em;
     padding: 1em;
     font: 1rem / 1.25 sans-serif;
-    border: 1px solid #e1e4e8;
+    border: 1px solid var(--border-card);
     border-radius: 8px;
     transition:
       transform 0.2s ease,

@@ -41,7 +41,10 @@ minima:
     - { platform: rss, user_url: "/feed.xml" }
     - { platform: github, user_url: "https://github.com/DoodlesEpic/" }
     - { platform: gitlab, user_url: "https://gitlab.com/doodlesdev/" }
-    - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/10328163/doodles" }
+    - {
+        platform: stackoverflow,
+        user_url: "https://stackoverflow.com/users/10328163/doodles",
+      }
     - { platform: mastodon, user_url: "https://mastodon.social/@doodlesdev" }
 
 # Build settings

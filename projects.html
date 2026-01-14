@@ -31,8 +31,41 @@ permalink: /projects/
   </li>
   {% endif%} {% endfor %}
 </ul>
-
 <style>
+  :root {
+    --bg-card: #fff;
+    --border-card: #e1e4e8;
+    --border-hover: #0366d6;
+    --text-main: #24292e;
+    --text-muted: #586069;
+    --text-desc: #444444;
+    --footer-border: #eeeeee;
+    --badge-lang-bg: #f1f8ff;
+    --badge-lang-text: #0366d6;
+    --badge-lang-border: #c8e1ff;
+    --badge-lic-bg: #f0fff4;
+    --badge-lic-text: #22863a;
+    --badge-lic-border: #cdffd8;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg-card: #161616;
+      --border-card: #30363d;
+      --border-hover: #58a6ff;
+      --text-main: #c9d1d9;
+      --text-muted: #8b949e;
+      --text-desc: #b1bac4;
+      --footer-border: #30363d;
+      --badge-lang-bg: rgba(56, 139, 253, 0.15);
+      --badge-lang-text: #58a6ff;
+      --badge-lang-border: rgba(56, 139, 253, 0.4);
+      --badge-lic-bg: rgba(63, 185, 80, 0.15);
+      --badge-lic-text: #3fb950;
+      --badge-lic-border: rgba(63, 185, 80, 0.4);
+    }
+  }
+
   .projects {
     margin: 2rem 0 0 0;
     display: grid;
@@ -41,8 +74,8 @@ permalink: /projects/
   }
 
   .project {
-    background: #fff;
-    border: 1px solid #e1e4e8;
+    background: var(--bg-card);
+    border: 1px solid var(--border-card);
     border-radius: 8px;
     padding: 1.5rem;
     display: flex;
@@ -56,27 +89,27 @@ permalink: /projects/
   .project:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    border-color: #0366d6;
+    border-color: var(--border-hover);
   }
 
   .card-content > h2 > a {
-    color: #24292e;
+    color: var(--text-main);
   }
 
   .card-date {
     font-size: 0.85rem;
-    color: #586069;
+    color: var(--text-muted);
   }
 
   .card-desc {
-    color: #444;
+    color: var(--text-desc);
   }
 
   .card-footer {
     display: flex;
     gap: 0.5rem;
     padding-top: 1rem;
-    border-top: 1px solid #eee;
+    border-top: 1px solid var(--footer-border);
   }
 
   .badge {
@@ -88,14 +121,14 @@ permalink: /projects/
   }
 
   .badge-language {
-    background-color: #f1f8ff;
-    color: #0366d6;
-    border: 1px solid #c8e1ff;
+    background-color: var(--badge-lang-bg);
+    color: var(--badge-lang-text);
+    border: 1px solid var(--badge-lang-border);
   }
 
   .badge-license {
-    background-color: #f0fff4;
-    color: #22863a;
-    border: 1px solid #cdffd8;
+    background-color: var(--badge-lic-bg);
+    color: var(--badge-lic-text);
+    border: 1px solid var(--badge-lic-border);
   }
 </style>

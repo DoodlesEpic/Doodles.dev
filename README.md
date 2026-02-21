@@ -10,6 +10,22 @@ This is my little personal website with blog posts, projects, and contact inform
 
 If my domain ever goes down for some reason, since this is deployed from a Netlify free-tier account, it will still be accessible at [doodlesdev.netlify.app](https://doodlesdev.netlify.app).
 
+## Run locally
+
+To get started, make sure to install [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [Bundler](https://bundler.io/). Then, inside the project's directory install project dependencies:
+
+```bash
+bundle install
+```
+
+Start the development server:
+
+```bash
+bundle exec jekyll serve
+```
+
+Open `http://127.0.0.1:4000` in your browser to preview the website.
+
 ## License
 
 ### Content

@@ -1,5 +1,5 @@
 source "https://rubygems.org"
-gem "jekyll", "~> 4.3.4"
+gem "jekyll", "~> 4.4.1"
 
 # The minima theme to be used as gem
 gem "doodles_minima", github: "DoodlesEpic/DoodlesMinima"

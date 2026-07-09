@@ -12,25 +12,34 @@ If my domain ever goes down for some reason, since this is deployed from a Netli
 
 ## Run locally
 
-To get started, install [mise](https://mise.jdx.dev/) and the project's toolchain:
+This project uses [mise](https://mise.jdx.dev/) to pin its local toolchain. To get started, install mise and the project's tools:
 
 ```bash
 mise install
 ```
 
-Then, inside the project's directory install project dependencies:
+If mise is activated in your shell, it puts the pinned tools on your `PATH`, so you can run the usual commands directly from the project directory:
 
 ```bash
-mise exec -- bundle install
+bundle install
 ```
 
 Start the development server:
 
 ```bash
-mise exec -- bundle exec jekyll serve
+bundle exec jekyll serve
 ```
 
 Open `http://127.0.0.1:4000` in your browser to preview the website.
+
+If mise is not activated in your shell, prefix commands with `mise exec --`, for example:
+
+```bash
+mise exec -- bundle install
+mise exec -- bundle exec jekyll serve
+```
+
+You can also install Ruby, Python, Bundler, uv, and the other tools without mise. If you do, make sure your local versions match the versions pinned in `.mise.toml` and `Gemfile.lock`.
 
 ## License
 

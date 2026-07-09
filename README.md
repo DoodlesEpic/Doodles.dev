@@ -12,16 +12,22 @@ If my domain ever goes down for some reason, since this is deployed from a Netli
 
 ## Run locally
 
-To get started, make sure to install [Ruby](https://www.ruby-lang.org/en/documentation/installation/) and [Bundler](https://bundler.io/). Then, inside the project's directory install project dependencies:
+To get started, install [mise](https://mise.jdx.dev/) and the project's toolchain:
 
 ```bash
-bundle install
+mise install
+```
+
+Then, inside the project's directory install project dependencies:
+
+```bash
+mise exec -- bundle install
 ```
 
 Start the development server:
 
 ```bash
-bundle exec jekyll serve
+mise exec -- bundle exec jekyll serve
 ```
 
 Open `http://127.0.0.1:4000` in your browser to preview the website.

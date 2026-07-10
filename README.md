@@ -14,6 +14,8 @@ This site intentionally inlines its theme CSS in the document head instead of li
 
 The tradeoff is that repeat navigation does not benefit from a cached stylesheet. That is acceptable for this site because first-load latency is the main goal. Since the inline CSS path no longer references `assets/css/style.css`, a small Jekyll plugin suppresses the theme's generated standalone stylesheet from the deployed output.
 
+Images are committed directly to the repository instead of using Git LFS, since the current image set is tiny, and plain static assets keep caching simple now that Netlify Large Media is deprecated.
+
 ## Run locally
 
 This project uses [mise](https://mise.jdx.dev/) to pin its local toolchain. To get started, install mise and the project's tools:

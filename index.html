@@ -6,16 +6,18 @@ title: Home
 <picture class="avatar">
   <source
     srcset="
-      /assets/images/avatar.webp       460w,
-      /assets/images/small-avatar.webp 150w
+      /assets/images/small-avatar.webp 150w,
+      /assets/images/avatar.webp       460w
     "
-    media="screen"
+    sizes="150px"
     type="image/webp"
   />
   <img
-    srcset="/assets/images/avatar.png"
-    width="150px"
-    height="150px"
+    src="/assets/images/avatar.png"
+    width="150"
+    height="150"
+    decoding="async"
+    fetchpriority="high"
     alt="The Doodles logo, a stylized letter D"
   />
 </picture>

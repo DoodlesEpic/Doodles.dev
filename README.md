@@ -4,11 +4,15 @@
 
 ## About
 
-Hello, my name is Eduardo, but you can call me Doodles!
-
-This is my little personal website with blog posts, projects, and contact information. This website was developed using Jekyll, and it's currently available at [doodlesdev.com](https://www.doodlesdev.com). 
+Hello, my name is Eduardo, but you can call me Doodles! This is my little personal website with blog posts, projects, and contact information. This website was developed using Jekyll, and it's currently available at [doodlesdev.com](https://www.doodlesdev.com). 
 
 If my domain ever goes down for some reason, since this is deployed from a Netlify free-tier account, it will still be accessible at [doodlesdev.netlify.app](https://doodlesdev.netlify.app).
+
+## Performance considerations
+
+This site intentionally inlines its theme CSS in the document head instead of linking to a standalone stylesheet. For a blog, the first page load is the most important path to optimize, because readers often arrive from search, RSS, social links, or direct links to individual posts. Inlining the small stylesheet avoids an extra render-blocking request on that first visit.
+
+The tradeoff is that repeat navigation does not benefit from a cached stylesheet. That is acceptable for this site because first-load latency is the main goal. Since the inline CSS path no longer references `assets/css/style.css`, a small Jekyll plugin suppresses the theme's generated standalone stylesheet from the deployed output.
 
 ## Run locally
 

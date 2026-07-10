@@ -41,6 +41,18 @@ mise exec -- bundle exec jekyll serve
 
 You can also install Ruby, Python, Bundler, uv, and the other tools without mise. If you do, make sure your local versions match the versions pinned in `.mise.toml` and `Gemfile.lock`.
 
+## Project data
+
+Project listings are stored in `_data/projects.yml`. To refresh them from
+GitHub, run the Python script documented in [`scripts/README.md`](scripts/README.md):
+
+```bash
+cd _data
+uv --project ../scripts run python ../scripts/generate_projects.py
+```
+
+Run it from `_data` so the generated YAML updates the file used by Jekyll.
+
 ## License
 
 ### Content

@@ -52,10 +52,23 @@ theme: doodles_minima
 
 sass:
   style: compressed
+  sourcemap: never
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
 
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - netlify.toml
+  - scripts/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
